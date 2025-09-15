@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esercizio 4 - Form</title>
+</head>
+<body>
+  <h1>Modulo di Iscrizione</h1>
+
+  <form method="post">
+    <fieldset>
+      <legend>Dati personali</legend>
+
+      <!-- Nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br /><br />
+
+      <!-- Password -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br /><br />
+    </fieldset>
+
+    <!-- Selettore a tendina -->
+    <label for="classe">Scegli la tua classe:</label>
+    <select id="classe" name="classe" required>
+      <option value="">--Seleziona--</option>
+      <option value="1A">1A</option>
+      <option value="1B">1B</option>
+      <option value="1C">1C</option>
+    </select>
+    <br /><br />
+
+    <!-- Pulsanti radio -->
+    <p>Genere musicale preferito:</p>
+    <input type="radio" id="rock" name="genere" value="rock" required>
+    <label for="rock">Rock</label><br>
+    <input type="radio" id="pop" name="genere" value="pop">
+    <label for="pop">Pop</label><br>
+    <input type="radio" id="jazz" name="genere" value="jazz">
+    <label for="jazz">Jazz</label>
+    <br /><br />
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="regolamento" name="regolamento" required>
+    <label for="regolamento">Accetto il regolamento</label>
+    <br /><br />
+
+    <!-- Area di testo -->
+    <label for="commento">Commento:</label><br>
+    <textarea id="commento" name="commento" rows="4" cols="50"></textarea>
+    <br /><br />
+
+    <!-- Pulsanti Invia e Reset -->
+    <input type="submit" value="Invia">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
