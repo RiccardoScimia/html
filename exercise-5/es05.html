@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitarello scemo</title>
+</head>
+<body>
+
+  <!-- HEADER con nome e menu di navigazione -->
+  <header>
+    <h1>Riccardo Scimia</h1>
+    <nav>
+      <a href="#chi-sono">Chi sono</a> |
+      <a href="#hobby">Hobby</a> |
+      <a href="#orario">Orario</a>
+    </nav>
+  </header>
+
+  <hr>
+
+  <!-- MAIN con contenuti principali -->
+  <main>
+    <!-- Immagine profilo -->
+    <section id="profilo">
+      <img src="https://i.ytimg.com/vi/Lo0oYdlgQcI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBxoCPuDrhfHxQBkpEKaQ7YPejgPQ" alt="Foto profilo">
+    </section>
+
+    <!-- Chi sono -->
+    <section id="chi-sono">
+      <h2>Chi sono</h2>
+      <p>Ciao! Sono Riccardo, studente appassionato di tecnologia, cinema e sport. NOVABBE GOKUDRILL</p>
+    </section>
+
+    <!-- Hobby -->
+    <section id="hobby">
+      <h2>Hobby</h2>
+      <ul>
+        <li>Videogiochi</li>
+        <li>Calcio</li>
+        <li>Cinema</li>
+        <li>Programmazione???</li>
+      </ul>
+    </section>
+
+    <!-- Orario lezioni -->
+    <section id="orario">
+      <h2>Orario lezioni</h2>
+      <table border="1">
+        <tr>
+          <th>Giorno</th>
+          <th>Materia</th>
+        </tr>
+        <tr>
+          <td>Lunedì</td>
+          <td>Merenda</td>
+        </tr>
+        <tr>
+          <td>Martedì</td>
+          <td>Ricreazione</td>
+        </tr>
+        <tr>
+          <td>Mercoledì</td>
+          <td>Pausa caffè</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Video YouTube -->
+    <section id="video">
+      <h2>Video incredibile</h2>
+      <iframe src="https://www.youtube.com/embed/Sagg08DrO5U" title="YouTube video" allowfullscreen></iframe>
+    </section>
+
+    <!-- Form di contatto -->
+    <section id="contatto">
+      <h2>Contattami</h2>
+
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="messaggio">Messaggio:</label><br>
+        <textarea id="messaggio" name="messaggio" rows="4" cols="50" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Invia">
+      </form>
+
+    </section>
+
+    <!-- Link interno per tornare in cima -->
+    <p><a href="#top">🔝 Torna in cima</a></p>
+  </main>
+
+  <hr>
+
+  <!-- FOOTER con contatti e copyright -->
+  <footer>
+    <p>Email: <a href="riccardo@gmail.com">riccardo@example.com</a></p>
+    <p>Telefono: +39 333 1234567</p>
+    <p>Visita il mio <a href="https://github.com/RiccardoScimia" target="_blank">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
